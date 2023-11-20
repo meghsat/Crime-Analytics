@@ -1,0 +1,419 @@
+*
+{
+	margin:0;
+	padding:0;
+}
+body {
+  overflow-x: hidden; /* Hide scrollbars */
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+/*----- Navigation-----*/
+#nav-bar
+{
+   position:sticky;
+   top:0;
+   z-index:10;
+   background-color: transparent;
+   background: transparent;
+   border-color: transparent;
+}
+.scroll-horizontal {
+    overflow-x: auto;
+    width: 200px;
+}
+
+.scroll-vertical {
+    overflow-y: auto;
+    height: 200px;
+}
+.navbar-collapse.collapse.in {
+  display: block!important;
+}
+.navbar-brand img
+{
+	height:60px;
+	padding-left: 30px;
+}
+div.img11{
+  float: left;
+  padding-top:750px; 
+  padding-left: 50px;
+}
+ul li
+{
+	padding: 0 35px;
+}
+ ul li a { 
+        text-decoration: none; 
+        font-size: 24px; 
+        font-weight: bold; 
+        color: black; 
+        position: relative; 
+  
+    } 
+  
+ ul li a::before { 
+        content: ""; 
+        width: 0px; 
+        height: 5px; 
+        background: #1a8cff; 
+        position: absolute; 
+        top: -25px; 
+        left: -40px; 
+        transition: .1s; 
+    } 
+  
+    ul li a:hover::before { 
+        width: 100%; 
+        transform: translateX(30%); 
+    } 
+.navbar
+{
+	background:#fff;
+}
+.navbar-toggler
+{
+	border:none!important;
+}
+.nav-link
+{
+	color: #555;
+	font-weight: 600;
+	font-size: 16px;
+}
+.bb
+{
+	color: white;
+	background-color:#1a8cff;
+border-radius: 12px;
+	
+	font-weight: 600;
+	font-size: 16px;
+}
+.bb1{
+  right:20px;
+}
+.bb2{
+  right:20px;
+}
+.bb3{
+  right:20px;
+}
+.bb4{
+  right:20px;
+}
+div.img11{
+  float: left;
+  padding-top:750px; 
+  padding-left: 60px;
+}
+div.img12{
+  float: left;
+  padding-top:50px; 
+/*  padding-left: 60px;
+*/}
+p1{
+  font-weight: bold;
+  font-size: 360px;
+  color:  #e1e5eb;
+  position: absolute;
+  left: -50px;
+  top: 20px;
+  
+}
+p2{
+  font-weight: bold;
+  font-size: 180px;
+  color:  #1a8cff;
+  position: absolute;
+  left: 20px;
+  top: 230px;
+  
+}
+p3{
+  font-weight: bold;
+  font-size: 180px;
+  color:  #0c0d0c;
+  position: absolute;
+  left: 880px;
+  top: 230px;
+  
+}
+div.contact{
+   position: relative;
+  margin-top:500px;
+  margin-left: 300px;
+  border: 2px solid #cfd4d1;
+  border-radius: 12px;
+  text-align: center;
+  background-color: #ffffff;
+  float: left;
+  width:400px;
+  height:650px;
+}
+div.fnamee{
+  width: 100px;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+div.fnameeicon{
+margin-left: -300px;
+  margin-left: -220px;
+}
+input[type=text] {
+  width: 300px;
+  padding: 12px 15px;
+  border-radius: 4px;
+  background: #e0e0e0;
+    border: 1px #e0e0e0;
+  box-sizing: border-box;
+}
+input[type=tel] {
+  width: 300px;
+  padding: 12px 15px;
+  border-radius: 4px;
+  background: #e0e0e0;
+  border: 1px #e0e0e0;
+  /*padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  
+  border-radius: 4px;*/
+  box-sizing: border-box;
+}
+textarea{
+  width: 300px;
+  height: 150px;
+  padding: 12px 15px;
+  border-radius: 4px;
+  background: #e0e0e0;
+  border: 1px #e0e0e0;
+}
+div.lnamee{
+  width: 50px;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+div.lnameeicon{
+  top: 20px;
+  left: -100px;
+}
+
+div.numm{
+  width: 50px;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+div.phoneicon{
+  margin-top: 20px;
+  margin-left: 100px;
+}
+
+div.emaill{
+  width: 50px;
+  margin-top: 0px;
+  margin-left: 50px;
+}
+div.envelicon{
+  margin-top: 20px;
+  margin-left: 100px;
+}
+
+div.msg{
+  width: 80px;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+div.msgicon{
+  margin-top: 20px;
+  margin-left: 100px;
+}
+input[type=submit]{
+  width: 300px;
+  height: 50px;
+  margin-top: 20px;
+  color: #ffffff;
+  padding: 12px 15px;
+  border-radius: 4px;
+  background: #1a8cff;
+    border: 1px #1a8cff;
+}
+p4{
+  float: left;
+   font-weight: bold;
+  font-size: 60px;
+  color:  #0b0259;
+  position: absolute;
+  left: 760px;
+  top: 590px;
+}
+p5{
+  float: left;
+   font-weight: bold;
+  font-size: 60px;
+  color:  #0b0259;
+  position: absolute;
+  left: 760px;
+  top: 650px;
+}
+p6{
+    float: left;
+
+  font-family:'Raleway'; 
+  font-size: 20px;
+  position: absolute;
+  left: 760px;
+  top: 750px;
+}
+p7{
+    float: left;
+
+  font-family:'Raleway'; 
+  font-size: 20px;
+  position: absolute;
+  left: 760px;
+  top: 780px;
+}
+p8{
+font-family:'Raleway'; 
+  font-size: 20px;
+  position: absolute;
+  left: 760px;
+  top: 810px;
+}
+div.footer{
+  position: relative;
+  margin-top:100px;
+  background-color: #ffffff;
+  float: left;
+  width:100%;
+  height:300px;
+}
+p38{
+  font-weight: bold;
+  float: left;
+  font-family:'Raleway';
+  color:  white;
+  font-size: 30px;
+  position: absolute;
+  left: 70px;
+  top:   100px;
+}
+p39{
+  float: left;
+  font-family:'Raleway';
+  color:  #010308;
+  font-size: 20px;
+  position: absolute;
+  left: 70px;
+  top:  180px;  
+}
+p40{
+  float: left;
+  font-family:'Raleway';
+  color:  #010308;
+  font-size: 20px;
+  position: absolute;
+  left: 70px;
+  top:  210px;
+}
+p41{
+  float: left;
+  font-family:'Raleway';
+  color:  #010308;
+  font-size: 20px;
+  position: absolute;
+  left: 70px;
+  top:    240px;
+}
+p42{
+  float: left;
+  font-family:'Raleway';
+  color:  #010308;
+  font-size: 20px;
+  position: absolute;
+  left: 70px;
+  top:    270px;
+}
+p43{
+  float: left;
+    font-family:'Raleway';
+
+  color:  #010308;
+  font-size: 20px;
+  position: absolute;
+  left: 70px;
+  top:     300px;
+}
+
+p44{
+    font-weight: bold;
+
+  float: left;
+  font-family:'Raleway';
+  font-color:  #1a8cff;
+  font-size: 25px;
+  position: absolute;
+  left: 800px;
+  top:    70px;
+}
+p45{
+  float: left;
+  font-family:'Raleway';
+  color:  #010308;
+  font-size: 20px;
+  position: absolute;
+  left: 800px;
+  top: 150px;
+}
+p46{
+  float: left;
+  font-family:'Raleway';
+  color:  #010308;
+  font-size: 20px;
+  position: absolute;
+  left: 800px;
+  top:  180px;
+}
+p47{
+  float: left;
+  font-family:'Raleway';
+  color:  #010308;
+  font-size: 20px;
+  position: absolute;
+  left: 800px;
+  top:   210px;
+}
+
+p51{
+  float: left;
+  font-family:'Raleway';
+  color:  #010308;
+  font-size: 15px;
+  position: absolute;
+  top:   320px;
+  left: 600px;
+  bottom:40px;
+  
+}
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+a:active {
+  color: white;
+  text-decoration: none;
+}
